@@ -13,10 +13,6 @@ public class EmployeeTest {
     @BeforeEach
     void setUp() {
         employees = new ArrayList<>();
-//        Employee e1 = new Employee();
-//        e1.setId(1);
-//        e1.setEmployee_age(61);
-//        e1.setEmployee_name("Tiger Nixon");
 
         employees.add(new Employee(1, "Tiger Nixon", 320800, 61, ""));
         employees.add(new Employee(2, "Garrett Winters", 170750, 63, ""));
